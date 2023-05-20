@@ -12,5 +12,8 @@ public class Main {
         int total = val1 +val2;
         System.out.println(total);
 
+        int y = 2;
+        System.out.println(y+2);
+
     }
 }
