@@ -11,7 +11,7 @@ public class Main {
         // char / valor caracter
         int val1 = 10;
         double val2 = 25.3456566;
-        double total = val1 +val2;
+        double total = val1 + val2;
         System.out.println(total);//System.out.println adiciona uma quebra de linha, System.out.print escreve na mesma linha
         System.out.printf("%.2f%n",total); // printF - formata o numero para quantidade de casas decimais
         Locale.setDefault(Locale.US);  //formatado para ponto e nao virgula
@@ -33,6 +33,5 @@ public class Main {
          int idade = 25;
          double renda = 4000.00;
          System.out.printf("%s ganha R$ %.2f tendo apenas %d anos de idade!%n", nome , renda, idade);
-         
     }
 }
