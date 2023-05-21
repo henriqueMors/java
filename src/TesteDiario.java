@@ -15,6 +15,8 @@ public class TesteDiario {
         idade = sc.nextInt();
 
         System.out.printf("Olá %s, você tem %d anos e já está na hora de mudar de ares!%n", nome, idade);
+
+        sc.close();
     }
     
 }
