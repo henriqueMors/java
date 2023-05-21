@@ -1,7 +1,7 @@
 package src;
 
 public class FuncMat {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
         double x = 9.0;
         double y = 4.0;
         double z = 5.0;
@@ -29,20 +29,26 @@ public class FuncMat {
         System.out.println("Valor absoluto de " + y + " = " + A);
         System.out.println("Valor absoluto de " + z + " = " + B);
 
-        //baskara
+        // Bhaskara
         double delta;
 
-        delta = Math.pow(B, 2.0) - 4*A*C;
-        
-        double x1;
-        double x2;
-        
-        x1 = (-B + Math.sqrt(delta)) / (2.0 * A);
-        x2 = (-B - Math.sqrt(delta)) / (2.0 * A);
+        delta = Math.pow(B, 2.0) - 4 * A * C;
 
-        System.out.println(delta);
-        System.out.println(x1);
-        System.out.println(x2);
-
+        if (delta < 0) {
+            System.out.println("A equação não possui raízes reais.");
+        } else if (delta == 0) {
+            double x1 = -B / (2 * A);
+            System.out.println("A equação possui uma raiz real: x = " + x1);
+        } else {
+            if (A == 0) {
+                System.out.println("Não é possível calcular as raízes: A não pode ser zero.");
+            } else {
+                double sqrtDelta = Math.sqrt(delta);
+                double denominator = 2 * A;
+                double x1 = (-B + sqrtDelta) / denominator;
+                double x2 = (-B - sqrtDelta) / denominator;
+                System.out.println("A equação possui duas raízes reais: x1 = " + x1 + ", x2 = " + x2);
+            }
+        }
     }
 }
