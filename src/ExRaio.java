@@ -16,7 +16,6 @@ public class ExRaio {
 
         System.out.printf("area = %.4f%n", area);
 
-
         sc.close();
     }
 }
