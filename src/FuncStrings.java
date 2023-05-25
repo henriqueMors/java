@@ -57,10 +57,6 @@ public class FuncStrings {
         System.out.println(plv2);
         System.out.println(plv3);
 
-
-
-
-
         sc.close();
 
     }
