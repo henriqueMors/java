@@ -49,6 +49,16 @@ public class FuncStrings {
         System.out.print("Achar ultima posicao do caractere: ");
         System.out.println(h);
 
+        String[] vect = palavra.split(" ");
+        String plv1 = vect[0];
+        String plv2 = vect[1];
+        String plv3 = vect[2].toUpperCase();
+        System.out.println(plv1);
+        System.out.println(plv2);
+        System.out.println(plv3);
+
+
+
 
 
         sc.close();
