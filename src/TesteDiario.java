@@ -31,7 +31,7 @@ public class TesteDiario {
             System.out.println("Qual sua idade: ");
             idade = sc.nextInt();
 
-            System.out.printf("Sua idade é %d anos? ( s | n ) -> ", idade);
+            System.out.printf("Sua idade é de %d anos? ( s | n ) -> ", idade);
             resp = sc.next().charAt(0);
         }
         
