@@ -23,17 +23,20 @@ public class programa {
         System.out.println("Dados do produto: " + produto);
 
         System.out.println();
-        System.out.println("Quanto produtos deseja adicionar: ");
+        System.out.print("Quanto produtos deseja adicionar: ");
         int quantidade = sc.nextInt();
         produto.adicionarProduto(quantidade);
 
+        System.out.println();
         System.out.println("Dados atualizados: " + produto);
-        /*
+
         System.out.println();
         System.out.println("Quanto produtos deseja remover: ");
-        int quantidade = sc.nextInt();
+        quantidade = sc.nextInt();
         produto.removerProduto(quantidade);
-        */
+        
+        System.out.println();
+        System.out.println("Dados atualizados: " + produto);
 
         sc.close();
     }
