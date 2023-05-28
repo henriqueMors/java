@@ -12,33 +12,34 @@ public class JogoDaVelha {
     }
 
     public void jogar() {
-        Scanner scanner = new Scanner(System.in);
-        boolean jogoAcabou = false;
+        try (Scanner scanner = new Scanner(System.in)) {
+            boolean jogoAcabou = false;
 
-        while (!jogoAcabou) {
-            exibirTabuleiro();
+            while (!jogoAcabou) {
+                exibirTabuleiro();
 
-            System.out.println("Jogador " + jogadorAtual + ", é sua vez. Informe a linha (0-2):");
-            int linha = scanner.nextInt();
-            System.out.println("Agora informe a coluna (0-2):");
-            int coluna = scanner.nextInt();
+                System.out.println("Jogador " + jogadorAtual + ", é sua vez. Informe a linha (0-2):");
+                int linha = scanner.nextInt();
+                System.out.println("Agora informe a coluna (0-2):");
+                int coluna = scanner.nextInt();
 
-            if (movimentoValido(linha, coluna)) {
-                realizarMovimento(linha, coluna);
+                if (movimentoValido(linha, coluna)) {
+                    realizarMovimento(linha, coluna);
 
-                if (jogoAcabado()) {
-                    exibirTabuleiro();
-                    System.out.println("Jogador " + jogadorAtual + " venceu!");
-                    jogoAcabou = true;
-                } else if (empate()) {
-                    exibirTabuleiro();
-                    System.out.println("O jogo terminou em empate!");
-                    jogoAcabou = true;
+                    if (jogoAcabado()) {
+                        exibirTabuleiro();
+                        System.out.println("Jogador " + jogadorAtual + " venceu!");
+                        jogoAcabou = true;
+                    } else if (empate()) {
+                        exibirTabuleiro();
+                        System.out.println("O jogo terminou em empate!");
+                        jogoAcabou = true;
+                    } else {
+                        trocarJogador();
+                    }
                 } else {
-                    trocarJogador();
+                    System.out.println("Movimento inválido! Tente novamente.");
                 }
-            } else {
-                System.out.println("Movimento inválido! Tente novamente.");
             }
         }
     }
