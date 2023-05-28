@@ -19,7 +19,21 @@ public class programa {
         System.out.print("Preço: ");
         produto.preco = sc.nextDouble();
         
-        System.out.println(produto);
+        System.out.println();
+        System.out.println("Dados do produto: " + produto);
+
+        System.out.println();
+        System.out.println("Quanto produtos deseja adicionar: ");
+        int quantidade = sc.nextInt();
+        produto.adicionarProduto(quantidade);
+
+        System.out.println("Dados atualizados: " + produto);
+        /*
+        System.out.println();
+        System.out.println("Quanto produtos deseja remover: ");
+        int quantidade = sc.nextInt();
+        produto.removerProduto(quantidade);
+        */
 
         sc.close();
     }
