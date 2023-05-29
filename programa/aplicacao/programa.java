@@ -1,9 +1,9 @@
-package aplicacao;
+package programa.aplicacao;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.produto;
+import programa.entidade.produto;
 
 public class programa {
     public static void main (String[] args) {

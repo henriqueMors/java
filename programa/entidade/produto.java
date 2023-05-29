@@ -1,4 +1,4 @@
-package entidade;
+package programa.entidade;
 
 public class produto {
     
