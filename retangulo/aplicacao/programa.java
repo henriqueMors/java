@@ -14,15 +14,14 @@ public class programa {
         retangulo retan = new retangulo();
 
         System.out.println("Digite a altura: ");
-        double altura = sc.nextDouble();
+        retan.altura = sc.nextDouble();
 
         System.out.println("Diite a largura ");
-        double largura = sc.nextDouble();
+        retan.largura = sc.nextDouble();
         
         System.out.printf("A área total do retângulo é de %.2f%n", retan.area());
         System.out.printf("O Perímetro total do retângulo é de %.2f%n", retan.perimetro());
         System.out.printf("A  diagonal tem valor de %.2f%n", retan.diagonal());
-
 
         sc.close();
 
