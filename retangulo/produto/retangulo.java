@@ -1,6 +1,6 @@
 package retangulo.produto;
 
-public class propriedades {
+public class retangulo {
     public double altura;
     public double largura;
 
