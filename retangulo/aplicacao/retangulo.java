@@ -3,7 +3,6 @@ package retangulo.aplicacao;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidade.produto;
 import retangulo.produto.propriedades;
 
 public class retangulo {
@@ -12,7 +11,7 @@ public class retangulo {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        retangulo retangulo = new retangulo();
+        retangulo retan = new retangulo();
 
         System.out.println("Digite a altura: ");
         double altura = sc.nextDouble();
@@ -20,9 +19,7 @@ public class retangulo {
         System.out.println("Diite a largura ");
         double largura = sc.nextDouble();
         
-        System.out.printf("A área total do retângulo é de %.f", area());
-
-
+        System.out.printf("A área total do retângulo é de %.2f", retan.area());
 
 
         sc.close();
