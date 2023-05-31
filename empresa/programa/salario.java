@@ -14,7 +14,7 @@ public class salario {
         return sal_bruto - desconto();
 
     }
-    public double aumento() {
+    public double aumento(double value) {
         return sal_liq() * porcentagem;
 
     }
