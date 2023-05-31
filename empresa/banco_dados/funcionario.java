@@ -19,11 +19,9 @@ public class funcionario {
         sal.sal_bruto = sc.nextDouble();
 
         System.out.printf("Digite a porcentagem de desconto: ");
-        sal.porcentagem = sc.nextDouble();
+        sal.porcentagem_desc = sc.nextDouble();
 
-        System.out.printf("A taxa de " + nome + " é de %.2eerrf", sal.desconto());
-
-        System.out.printf("O salário liquido de " + nome + " é de %.2e", sal.sal_liq());
+        System.out.printf("A taxa de " + nome + " é de %.0f%n", sal.desconto());
 
 
         sc.close();
