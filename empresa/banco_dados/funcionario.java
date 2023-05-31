@@ -23,6 +23,8 @@ public class funcionario {
 
         System.out.printf("A taxa de " + nome + " é de %.2eerrf", sal.desconto());
 
+        System.out.printf("O salário liquido de " + nome + " é de %.2e", sal.sal_liq());
+
 
         sc.close();
     }
