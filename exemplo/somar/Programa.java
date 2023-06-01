@@ -9,11 +9,12 @@ public class Programa {
     }
 
     public void parOuImpar() {
+        
         if (soma() % 2 == 0){
-        System.out.println("Par");
+        System.out.print("Par");
     }
         else {
-            System.out.println("Impar");
+            System.out.print("Impar");
     }
 
 }
