@@ -9,7 +9,7 @@ public class Dados {
     }
 
     public double taxa() {
-        return compra + (compra * 0.6) / 100;
+        return valor() * 0.06;
     }
 
     public double total() {
