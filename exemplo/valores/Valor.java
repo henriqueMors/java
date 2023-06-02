@@ -15,7 +15,7 @@ public class Valor {
         System.out.println("Digite o segundo número: ");
         prog.valor2 = sc.nextInt();
 
-        System.out.printf("A soma dos dois algarismo é igual a: " + prog.soma() + "%n");
+        System.out.printf("A soma do digitado é igual a: " + prog.soma() + "%n");
 
         System.out.print("Este é um número: "); prog.parOuImpar();
 
