@@ -1,4 +1,4 @@
-package programa.aplicacao;
+package programa_this.aplicacao;
 
 import java.util.Locale;
 import java.util.Scanner;
