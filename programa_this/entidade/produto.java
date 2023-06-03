@@ -19,7 +19,10 @@ public class produto {
     }
 
     public String toString() {
-        return "Nome: " + this.nome + ", Preço: R$" + String.format("%.2f", this.preco) + ", Quantidade: " + this.quantidade + ", Valor total em estoque: R$" + String.format("%.2f", valorTotalEmEstoque());
+        return "Nome: " + this.nome + ", Preço: R$" 
+                        + String.format("%.2f", this.preco) 
+                        + ", Quantidade: " + this.quantidade + ", Valor total em estoque: R$" 
+                        + String.format("%.2f", valorTotalEmEstoque());
     }
 
 
