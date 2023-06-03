@@ -1,11 +1,18 @@
 package programa_this.entidade;
 
-public class produto {
+public class Produto {
     
     public String nome;
     public double preco;
     public int quantidade;
 
+    public Produto(String nome, int quantidade, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+
+
+    }
     public double valorTotalEmEstoque() {
         return this.preco * this.quantidade;
     }
