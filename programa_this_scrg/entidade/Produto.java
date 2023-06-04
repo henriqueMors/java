@@ -1,4 +1,4 @@
-package programa_this.entidade;
+package programa_this_scrg.entidade;
 
 public class Produto {
     
@@ -10,6 +10,11 @@ public class Produto {
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
+    }
+
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
     }
 
     public double valorTotalEmEstoque() {
