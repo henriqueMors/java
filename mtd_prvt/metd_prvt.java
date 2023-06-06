@@ -20,6 +20,4 @@ public void setPreco(double preco) {
     this.preco = preco;
 }
 
-
-int numero;
 }
