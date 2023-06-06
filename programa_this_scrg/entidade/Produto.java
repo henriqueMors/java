@@ -6,6 +6,10 @@ public class Produto {
     public double preco;
     public int quantidade;
 
+    public Produto(){
+        //Para utilizar as variaveis locais
+    }
+
     public Produto(String nome, int quantidade, double preco) {
         this.nome = nome;
         this.preco = preco;
