@@ -24,7 +24,12 @@ public class Programa{
         }
         System.out.println();
         System.out.println("Dados da conta: " + conta);
-        
+
+        System.out.println();
+        System.out.print("Entre com um valor para depósito: ");
+        double valor = scan.nextDouble();
+
+
 
 
 
