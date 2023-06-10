@@ -40,5 +40,14 @@ public class Conta {
 		saldo -= valor + 5.00;
 	}
 
+	public String toString() {
+		return "Conta: " 
+		+ numero 
+		+ " | Detentor: " 
+		+ detentor
+		+ " | Saldo: R$ "
+		+ String.format("%.2f",saldo);
+	}
+
 
 }
