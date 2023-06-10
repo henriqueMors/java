@@ -3,9 +3,9 @@ package banco;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entities.Account;
+import Programa;
 
-public class Program {
+public class Programa {
 
 	public static void main(String[] args) {
 
@@ -49,5 +49,5 @@ public class Program {
 		
 		sc.close();
 	}
-    
+
 }
