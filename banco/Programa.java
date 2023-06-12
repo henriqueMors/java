@@ -28,9 +28,18 @@ public class Programa{
         System.out.println();
         System.out.print("Entre com um valor para depósito: ");
         double valor = scan.nextDouble();
+        conta.Deposito(valor);
+        System.out.println("Atualizando dados da conta: ");
+        System.out.println(conta);
+        System.out.println();
 
-
-
+        System.out.println();
+        System.out.print("Entre com um valor para saque: ");
+        double saque = scan.nextDouble();
+        conta.Saque(saque);
+        System.out.println("Atualizando dados da conta: ");
+        System.out.println(conta);
+        System.out.println();
 
 
         scan.close();
