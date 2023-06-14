@@ -3,7 +3,7 @@ package src;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Lifodemo {
+public class Lifo {
     public static void main(String[] args) {
         Stack<Object> stack = new Stack<>();
         Scanner scanner = new Scanner(System.in);
