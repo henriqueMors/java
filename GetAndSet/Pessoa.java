@@ -43,6 +43,6 @@ public class Pessoa {
         System.out.println("Nome: " + pessoa.getNome());  // Imprime o nome da pessoa
         System.out.println("Idade: " + pessoa.getIdade());  // Imprime a idade da pessoa
 
-        scanner.close();  // Fecha o objeto Scanner
+        scanner.close();  // Fecha o Scanner
     }
 }
