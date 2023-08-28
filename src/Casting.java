@@ -19,7 +19,7 @@ public class Casting {
         System.out.println(Y);
 
         double b, B, h, area;
-        b = 6f; // f foi utiliado para apresentar o .0
+        b = 6f; // f foi utilizado para apresentar o .0
         B = 8f;
         h = 5f;
 
