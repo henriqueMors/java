@@ -14,6 +14,7 @@ public class testando {
 
         System.out.printf("Insira o valor: \n");
         a = scan.nextDouble();
+        scan.nextLine();
         System.out.printf("Insira o caracter: \n");
         b = scan.next().charAt(0);
 
