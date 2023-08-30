@@ -8,6 +8,5 @@ public class UsandoJOptionPane {
         String nome = JOptionPane.showInputDialog("Digite seu nome: ");
 
         JOptionPane.showMessageDialog(null, "Pense num nome feio: " + nome);
-    }
-    
+    }   
 }
