@@ -8,7 +8,7 @@ public class For {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         
-        for (int i=1; i <= x; i=i+2) {
+        for (int i=1; i <= x; i+=2) {
             System.out.println(i);
 
         }
