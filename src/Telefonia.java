@@ -11,9 +11,9 @@ public class Telefonia {
         double valor = 50.0;
 
         if (minutos > 100) {
-            valor = valor + (minutos - 100) * 2.0;
-        }       
-            System.out.println(valor);
+            valor += (minutos - 100) * 2.0;
+        }   
+            System.out.printf("Sua conta ficou num total de: R$%.2f", valor);
 
             sc.close();
 }
