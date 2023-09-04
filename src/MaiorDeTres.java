@@ -3,12 +3,14 @@ package src;
 import java.util.Scanner;
 
 public class MaiorDeTres {
-    public void main (String [] args) {
+    public static void main (String [] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.printf("Digite uma sequência de três números");
+        System.out.println("Digite um número que ocupe o espaço A");
         int a = sc.nextInt();
+        System.out.println("Digite um número que ocupe o espaço B");
         int b = sc.nextInt();
+        System.out.println("Digite um número que ocupe o espaço C");
         int c = sc.nextInt();
 
         if (a > b && a > c) {
