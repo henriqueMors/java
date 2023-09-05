@@ -14,11 +14,11 @@ public class MaiorDeTres {
         int c = sc.nextInt();
 
         if (a > b && a > c) {
-            System.out.printf("%d é maior dos três", a);
+            System.out.printf("%d é maior dos três!!!", a);
         } else if  (b > c) {
-            System.out.printf("%d é maior dos três", b);
+            System.out.printf("%d é maior dos três!!!", b);
         } else {
-            System.out.printf("%d é maior dos três", c);
+            System.out.printf("%d é maior dos três!!!", c);
         }
         sc.close();
     }
