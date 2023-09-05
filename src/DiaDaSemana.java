@@ -1,6 +1,6 @@
 package src;
 import javax.swing.JOptionPane;
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class DiaDaSemana {
     public static void main (String [] args) {
@@ -40,7 +40,7 @@ public class DiaDaSemana {
                 //System.out.println("Sábado");
                 break;
             default:
-            JOptionPane.showMessageDialog(null, "##ERR404## NOTFOUND \n Opção Inválida!");
+            JOptionPane.showMessageDialog(null, "##ERR404## \n Opção Inválida!");
                 //System.out.println("Opção inválida. Tente novamente.");
                 break;
 
