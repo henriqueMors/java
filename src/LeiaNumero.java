@@ -23,7 +23,7 @@ public class LeiaNumero {
         int produto = inteiro_1 * inteiro_2 * inteiro_3;
 
         //impressão do resultado das operações
-        System.out.println("Atenção para os resultados abaixo:");
+        System.out.println("Atenção para os resultados abaixo: \n");
         System.out.println("");
         System.out.printf("A soma dos três números é igual à %d\n", soma);
         System.out.printf("A média entre os três números é %d\n", media);
