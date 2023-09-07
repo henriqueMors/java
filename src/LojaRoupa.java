@@ -49,7 +49,7 @@ public class LojaRoupa {
                         if (qtdParcelaCre == 0) {
                                 System.out.printf("Você optou por 01 vez no crediário para o próximo 5o dia útil. \nO valor ficou em R$%.2f. \nObrigado e volte sempre!", valorItemCre);
                             } else {
-                                System.out.printf("Você optou por %d parcela(s) no crediário. \nO valor de cada parcela ficou em R$%.2f \nObrigado e volte sempre!", qtdParcelaCre, valorParcelaCreComJuros);
+                                System.out.printf("Você optou por %d parcelas no crediário. \nO valor de cada parcela ficou em R$%.2f \nObrigado e volte sempre!", qtdParcelaCre, valorParcelaCreComJuros);
                         }
                 break;
 
