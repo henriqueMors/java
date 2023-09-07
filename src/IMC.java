@@ -8,6 +8,8 @@ public class IMC {
         Scanner sc = new Scanner(System.in);
        //Locale.setDefault(Locale.US);
 
+       System.out.println("Vamos verificar seu IMC?");
+
         System.out.print("Informe seu peso (Ex.: 70,00): ");
         double peso = sc.nextDouble();
         System.out.print("Informe sua altura (Ex.: 1,80): ");
