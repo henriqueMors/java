@@ -11,8 +11,8 @@ public class LojaRoupa {
 
         System.out.printf("\nO valor do ítem é de R$%.2f\n\n", valorItem);
         System.out.println("Informe o método de pagamento:");
-        System.out.println("0. À vista com 10% de desconto.");
-        System.out.println("1. Cartão - Informe o número de parcelas.");
+        System.out.println("0. À vista - 10% de desconto.");
+        System.out.println("1. Cartão.");
         System.out.println("2. Crediário - Informe o número de parcelas.");
         System.out.println("Escolha uma opção: ");
         
@@ -26,9 +26,14 @@ public class LojaRoupa {
                 break;
 
                 case (1):
+                    System.out.println("Informe o número de parcelas: ");
                     int qtdparcela = sc.nextInt();
                     double valorParcela = valorItem / qtdparcela;
-                    System.out.printf("Você optou por %d parcela(s) e o valor de cada parcela ficou em %.2f", qtdparcela, valorParcela);
+                    if (qtdparcela == 0) {
+                            System.out.printf("Você optou por 01 vez no cartão. \nO valor ficou em R$%.2f. \nObrigado e volte sempre!", valorItem);
+                        } else {
+                            System.out.printf("Você optou por %d parcela(s) no cartão. \nO valor de cada parcela ficou em R$%.2f \nObrigado e volte sempre!", qtdparcela, valorParcela);
+                    }
                 break;
 
                 case (2):
