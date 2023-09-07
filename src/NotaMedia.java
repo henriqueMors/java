@@ -8,6 +8,8 @@ public class NotaMedia {
 
         Scanner sc = new Scanner(System.in);
 
+            System.out.println("\nEscola Estadual Professor Raimundo");
+
             System.out.print("Insira a primeira nota: ");
             double primeiraNota = sc.nextDouble();
             System.out.print("Insira a segunda nota: ");
