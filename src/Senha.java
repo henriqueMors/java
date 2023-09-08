@@ -24,8 +24,6 @@ public class Senha {
             System.out.println("\nSenha aceita!");
         }
 
-        System.out.println("\nSenha aceita!");
-
         sc.close();
     }
 }
