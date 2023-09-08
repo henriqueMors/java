@@ -38,9 +38,7 @@ public class OrdemCrescente {
         } else if (num_3 < num_1 && num_3 < num_2 && num_1 < num_2) {
             System.out.printf("%d %d %d", num_3, num_1, num_2);
         }
-
-
-        sc.close();
+      sc.close();
     }
     
 }
