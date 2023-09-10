@@ -40,14 +40,4 @@ public class OrdemCrescente {
         }
       sc.close();
     }
-    
 }
-
-/* 
-123
-132
-213
-231
-321
-312
- */
