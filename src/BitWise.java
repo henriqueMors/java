@@ -1,5 +1,6 @@
 package src;
 
+//muito utilizado em linguagens de baixo nivel, arduino, por exemplo
 public class BitWise {
     public static void main (String [] args) {
         int n1 = 89;
