@@ -3,7 +3,6 @@ package Pensao.Aplicação;
 import java.util.Locale;
 import java.util.Scanner;
 
-import MediaValorProductVector.aplicação.Produto;
 import Pensao.Programa.Programa;
 
 public class Pensionato {
@@ -11,7 +10,7 @@ public class Pensionato {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Quantos esudantes receberemos?");
+        System.out.println("Quantos estudantes receberemos?");
         int n = sc.nextInt();
         Programa [] vect = new Programa [n];
 

@@ -13,7 +13,7 @@ public class MediaProgramVector {
         double[] vect = new double[n];
 
         for (int i=0; i<n; i++) {
-            System.out.printf("Insira a nota do aluno %d: ", i);
+            System.out.printf("Insira a nota do aluno %d: ", i+1);
             vect[i] = sc.nextDouble();
         }
 
