@@ -7,10 +7,7 @@ public class LivroDeNotas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-        
-
         System.out.println("##~ Bem vindo ao livro de notas ~##");
-
 
         sc.close();
     }
