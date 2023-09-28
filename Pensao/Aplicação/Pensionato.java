@@ -35,5 +35,6 @@ public class Pensionato {
         }
 
         sc.close();
+        
     }
 }
