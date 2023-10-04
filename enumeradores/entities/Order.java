@@ -43,6 +43,10 @@ public class Order {
         this.status = status;
     }
 
+    public String toString() {
+        return "Order [id=" + id + ", moment=" + moment + ", status=" + status + "]";
+    }
+
 
 
 }

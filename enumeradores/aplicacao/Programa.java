@@ -11,5 +11,9 @@ public class Programa {
         Order order = new Order(1080, new Date(0), OrderStatus.PENDING_PAYMENT);
     
         System.out.println(order);
+
+        OrderStatus os1 = OrderStatus.DELIVERED;
+
+        System.out.println(os1);
     }
 }
