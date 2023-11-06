@@ -1,14 +1,14 @@
 package locadora.model_entities;
 
-public class Vehicle {
+public class Veiculo {
 
     private String model;
 
-    public Vehicle() {
+    public Veiculo() {
     
     }
 
-    public Vehicle(String model) {
+    public Veiculo(String model) {
         this.model = model;
     }
 

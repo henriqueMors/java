@@ -6,17 +6,17 @@ public class AluguelDeCarro {
     private LocalDateTime inicio;
     private LocalDateTime fim;
 
-    private Vehicle vehicle;
+    private Veiculo veiculo;
     private Fatura fatura;
 
     public AluguelDeCarro() {
 
     }
 
-    public AluguelDeCarro(LocalDateTime inicio, LocalDateTime fim, Vehicle vehicle, Fatura fatura) {
+    public AluguelDeCarro(LocalDateTime inicio, LocalDateTime fim, Veiculo veiculo, Fatura fatura) {
         this.inicio = inicio;
         this.fim = fim;
-        this.vehicle = vehicle;
+        this.veiculo = veiculo;
         this.fatura = fatura;
 
     }
@@ -37,12 +37,12 @@ public class AluguelDeCarro {
         this.fim = fim;
     }
 
-        public Vehicle getVehicle() {
-        return vehicle;
+        public Veiculo getVeiculo() {
+        return veiculo;
     }
 
-        public void setVehicle(Vehicle vehicle) {
-        this.vehicle = vehicle;
+        public void setVeiculo(Veiculo veiculo) {
+        this.veiculo = veiculo;
     }
 
         public Fatura getFatura() {
