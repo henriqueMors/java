@@ -17,7 +17,6 @@ public class AluguelDeCarro {
         this.inicio = inicio;
         this.fim = fim;
         this.veiculo = veiculo;
-        this.fatura = fatura;
 
     }
 
