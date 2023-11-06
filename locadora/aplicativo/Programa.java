@@ -17,13 +17,13 @@ public class Programa {
 
         System.out.println("ENTRE COM OS DADOS DO ALUGUEL");
         System.out.print("Modelo do carro: ");
-        String carModel = input.nextLine();
+        String modelo = input.nextLine();
         System.out.print("Retirada: (dd/MM/yyyy hh:mm): ");
         LocalDateTime inicio = LocalDateTime.parse(input.nextLine(), fmt);
         System.out.print("Retorno: (dd/MM/yyyy hh:mm): ");
         LocalDateTime fim = LocalDateTime.parse(input.nextLine(), fmt);
 
-        AluguelDeCarro ac = new AluguelDeCarro(inicio, fim, new Veiculo(carModel));
+        AluguelDeCarro ac = new AluguelDeCarro(inicio, fim, new Veiculo(modelo));
 
         input.close();
 

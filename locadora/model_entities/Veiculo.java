@@ -2,21 +2,21 @@ package locadora.model_entities;
 
 public class Veiculo {
 
-    private String model;
+    private String modelo;
 
     public Veiculo() {
     
     }
 
-    public Veiculo(String model) {
-        this.model = model;
+    public Veiculo(String modelo) {
+        this.modelo = modelo;
     }
 
-    public String getModel() {
-        return model;
+    public String getModelo() {
+        return modelo;
     }
 
-    public void setModel(String model) {
-        this.model = model;
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
     }
 }

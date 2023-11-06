@@ -13,7 +13,7 @@ public class AluguelDeCarro {
 
     }
 
-    public AluguelDeCarro(LocalDateTime inicio, LocalDateTime fim, Veiculo veiculo, Fatura fatura) {
+    public AluguelDeCarro(LocalDateTime inicio, LocalDateTime fim, Veiculo veiculo) {
         this.inicio = inicio;
         this.fim = fim;
         this.veiculo = veiculo;
