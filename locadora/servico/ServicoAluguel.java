@@ -8,41 +8,12 @@ import locadora.model_entities.Fatura;
 public class ServicoAluguel {
     private double porDia;
     private double porHora;
-    private Tax tax;
+    private Tax taxServico;
 
-    public ServicoAluguel(double porDia, double porHora, Tax tax) {
+    public ServicoAluguel(double porDia, double porHora, Tax taxServico) {
         this.porDia = porDia;
         this.porHora = porHora;
-        this.tax = tax;
-    }
-
-
-    public double getPorDia() {
-        return porDia;
-    }
-
-
-    public void setPorDia(double porDia) {
-        this.porDia = porDia;
-    }
-
-
-    public double getPorHora() {
-        return porHora;
-    }
-
-
-    public void setPrecoPorHora(double precoPorHora) {
-        this.porHora = precoPorHora;
-    }
-
-
-    public Tax getTax() {
-        return tax;
-    }
-
-    public void setTax(Tax tax) {
-        this.tax = tax;
+        this.taxServico = taxServico;
     }
 
     public void processoFatura(AluguelDeCarro AluguelDeCarro) {
