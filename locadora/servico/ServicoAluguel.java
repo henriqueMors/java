@@ -8,7 +8,7 @@ public class ServicoAluguel {
     private double porHora;
     private Tax tax;
 
-    public ServicoAluguel(double porDia, double porDia, Tax tax) {
+    public ServicoAluguel(double porDia, double porHora, Tax tax) {
         this.porDia = porDia;
         this.porHora = porHora;
         this.tax = tax;

@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import locadora.model_entities.AluguelDeCarro;
 import locadora.model_entities.Veiculo;
+import locadora.servico.ServicoAluguel;
+import locadora.servico.Tax;
 
 public class Programa {
     public static void main(String[] args) {
@@ -25,6 +27,21 @@ public class Programa {
 
         AluguelDeCarro ac = new AluguelDeCarro(inicio, fim, new Veiculo(modelo));
 
+        System.out.println("Informe o preço por hora: ");
+        double porHora = input.nextDouble();
+        System.out.println("Informe o preço por dia: ");
+        double porDia = input.nextDouble();
+
+        ServicoAluguel servicoAluguel = new ServicoAluguel(porDia, porHora, new Tax());
+        servicoAluguel.processoFatura(ac);
+
+        System.out.println("FATURA: ");
+        System.out.println("PAGAMENTO BASICO: " + ac.getFatura().getPagPadrao());
+        System.out.println("IMPOSTO: " + ac.getFatura().getTax());
+        System.out.println("TOTAL: " + ac.getFatura().getPagTotal());
+        
+        
+        
         input.close();
 
     }
