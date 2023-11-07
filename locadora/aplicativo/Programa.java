@@ -27,15 +27,15 @@ public class Programa {
 
         AluguelDeCarro ac = new AluguelDeCarro(inicio, fim, new Veiculo(modelo));
 
-        System.out.println("Informe o preço por hora: ");
+        System.out.print("Informe o preço por hora: ");
         double porHora = input.nextDouble();
-        System.out.println("Informe o preço por dia: ");
+        System.out.print("Informe o preço por dia: ");
         double porDia = input.nextDouble();
 
         ServicoAluguel servicoAluguel = new ServicoAluguel(porDia, porHora, new Tax());
         servicoAluguel.processoFatura(ac);
 
-        System.out.println("FATURA: ");
+        System.out.println("~ FATURA ~ ");
         System.out.println("PAGAMENTO BASICO: " + ac.getFatura().getPagPadrao());
         System.out.println("IMPOSTO: " + ac.getFatura().getTax());
         System.out.println("TOTAL: " + ac.getFatura().getPagTotal());
