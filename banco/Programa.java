@@ -39,7 +39,6 @@ public class Programa{
         conta.Saque(saque);
         System.out.println("Atualizando dados da conta: ");
         System.out.println(conta);
-        System.out.println();
 
 
         scan.close();
