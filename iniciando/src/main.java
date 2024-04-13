@@ -1,6 +1,7 @@
 package iniciando.src;
 
 import java.lang.reflect.Array;
+import java.text.BreakIterator;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -11,10 +12,40 @@ public class main { /* CLASS */
     public static void main(String[] args) { /* METHOD */
         Scanner scan = new Scanner(System.in); 
 
+        //SWITCH
+
+        System.out.println("-- NOMES --");
+        System.out.println("A -> Alicia \nB -> Sophia \nC -> Isabela \nD -> Maya \nE -> Beubinha");
+
+        System.out.print("De quem gostaria de ver os dados? \nDigite a letra: ");
+        String digitado = scan.nextLine().toUpperCase();
+
+        switch (digitado) {
+            case "A":
+            System.out.println("Escolheu Alicia. Nasceu em 15/11/08.");
+            break;
+            case "B":
+            System.out.println("Escolheu Sophia. Nasceu em 04/08/18.");
+            break;
+            case "C":
+            System.out.println("Escolheu Isabela. Nasceu em 10/07/20.");
+            break;
+            case "D":
+            System.out.println("Escolheu Maya. Nasceu em 10/01/22.");
+            break;
+            case "E":
+            System.out.println("EScolheu Beubinha. Nasceu em 26/05/87.");
+            break;
+            default:
+            System.out.println("Nao existe essa escolha!");
+            break;
+        }
+
+
 
 
         /*
-        
+
         //PROJETO DIA 3
 
         System.out.print("Digite um numero: ");
