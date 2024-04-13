@@ -11,8 +11,44 @@ public class main { /* CLASS */
     public static void main(String[] args) { /* METHOD */
         Scanner scan = new Scanner(System.in); 
 
-        
 
+
+        /*
+        
+        //PROJETO DIA 3
+
+        System.out.print("Digite um numero: ");
+        int numero = scan.nextInt();
+        
+        if (numero >=0 && numero <= 9) 
+        {
+            System.out.println("Este numero tem 1 digito.");
+        }
+        else if (numero >=10 && numero <= 99) 
+        {
+            System.out.println("Este numero tem 2 digitos.");
+        }
+        else if (numero >=100 && numero <= 999) 
+        {
+            System.out.println("Este numero tem 3 digitos.");
+        }
+        else if (numero >=1000 && numero <= 9999) 
+        {
+            System.out.println("Este numero tem 4 digitos.");
+        }
+        else if (numero >=10000) 
+        {
+            System.out.println("Este numero tem 5 ou mais digitos.");
+        }
+        else
+        {
+            System.out.println("Voce nao digitou algo valido");
+        }
+
+
+        */
+
+        /*
         //PROJETO DIA 2
 
         int[] my_array1 = {
@@ -37,6 +73,8 @@ public class main { /* CLASS */
             Arrays.sort(my_array2);
             System.out.println("Array 2 em ordem = " + Arrays.toString(my_array2));
             
+        */
+
 
         /*
 
