@@ -1,7 +1,5 @@
 package iniciando.src;
 
-import java.lang.reflect.Array;
-import java.text.BreakIterator;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,8 +8,50 @@ import java.util.Scanner;
 public class main { /* CLASS */
 
     public static void main(String[] args) { /* METHOD */
-        Scanner scan = new Scanner(System.in); 
+        Scanner scan = new Scanner(System.in);
 
+        String palavra = "HELLO WORLD";
+
+        for (int i = 0 ; i <= palavra.length() - 1 ; i++)
+            System.out.print(palavra.charAt(i) + " ");
+
+        /*
+
+        //WHILE
+
+        int valor = 0;
+
+        while ( valor <= 100 ) {
+            System.out.print(valor + " ");
+            valor = valor + 2;
+        }
+
+        */
+
+        /*
+        for (int a = 0 ; a < 2 ; a++)
+            for (int b = 0 ; b < 2 ; b++)
+                for (int c = 0 ; c < 2 ; c++)
+                    for (int d = 0 ; d < 2 ; d++)
+                        for (int e = 0 ; e < 2 ; e++)
+                            for (int f = 0 ; f < 2 ; f++)
+                                for (int g = 0 ; g < 2 ; g++)
+                                    for (int h = 0 ; h < 2 ; h++)
+
+                    System.out.println(a + " " + b + " " + c + " " + d + " " + e + " " + f + " " + g + " " + h);
+
+        */
+
+        /*
+        //FOR
+        System.out.print("Quantos \"ola mundo\" gostaria de imprimir? ");
+        int qtd1 = scan.nextInt();
+        for (int qtd2 = 1 ; qtd2 <= qtd1; qtd2++) {
+            System.out.println("ola mundo");
+        }
+        */
+
+        /*
         //SWITCH
 
         System.out.println("-- NOMES --");
@@ -41,6 +81,7 @@ public class main { /* CLASS */
             break;
         }
 
+        */
 
 
 
