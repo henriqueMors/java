@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         product("", 0);
+
     }
 
     public static void product (String nome, double valor) {
