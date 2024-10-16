@@ -11,6 +11,11 @@ public class main { /* CLASS */
         Scanner scan = new Scanner(System.in);
 
         String palavra = "HELLO WORLD";
+        int a = 19;
+        int b = 5;
+        int resultado = a%b;
+
+        System.out.println(resultado);
 
         for (int i = 0 ; i <= palavra.length() - 1 ; i++)
             System.out.print(palavra.charAt(i) + " ");
