@@ -33,7 +33,7 @@ public class Casting {
         v = 5;
         u = 2;
 
-        resultado = (double) v / u; //utilizei o (double) para que fosse mostrado o valor com o resultado correto apos o ponto
+        resultado = (double) v / u; //utilizei o (double) para que fosse mostrado o valor com o resultado correto apos o ponto (isso é o casting)
 
         System.out.println(resultado);
 
