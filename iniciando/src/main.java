@@ -1,6 +1,7 @@
 package iniciando.src;
 
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 // DUAS BARRAS PARA FAZER COMENTARIOS
@@ -8,6 +9,7 @@ import java.util.Scanner;
 public class main { /* CLASS */
 
     public static void main(String[] args) { /* METHOD */
+        Locale.setDefault(Locale.US); //ATUALIZA A PONTUAÇÃO COM PONTO (US) NA FORMATAÇÃO
         Scanner scan = new Scanner(System.in);
 
         String palavra = "HELLO WORLD";

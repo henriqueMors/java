@@ -31,7 +31,7 @@ public class Main {
 
          String nome = "Maria";
          int idade = 25;
-         double renda = 4000.00;
+         double renda = 4000.0;
          System.out.printf("%s ganha R$ %.2f tendo apenas %d anos de idade!%n", nome , renda, idade);
     }
 }
