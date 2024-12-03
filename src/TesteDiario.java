@@ -10,8 +10,7 @@ public class TesteDiario {
         Locale.setDefault(Locale.US);
 
         System.out.println("\n\n##USE PONTOS PARA DEFINIR DECIMAIS##\n\n");
-        
-        
+                
         System.out.print("Qual produto 01? ");
         String product1 = sc.nextLine();
         System.out.println("Qual produto 02?");
@@ -55,7 +54,6 @@ public class TesteDiario {
                 mtn = "Inválido";
                 break;
         }
-
 
         System.out.println("Products:");
         System.out.printf("%s, which price is R$ %.2f\n", product1, price1);
