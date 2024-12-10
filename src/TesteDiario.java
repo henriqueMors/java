@@ -1,24 +1,28 @@
 package src;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class TesteDiario {
 
     public static void main (String [] args) {
+        Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        
-        
-        int valor = sc.nextInt();
-        
-        for ( int i = 1; i <= valor; i++ ) {
-            if ( i % 2 != 0 ) {
 
-                System.out.println(i);
+        char resp;
 
-            }
-        }
+        do {
+        System.out.print("Digite o valor em celsius: ");
+        double C = sc.nextDouble();
+        double F = 9.0 * C / 5 + 32;
 
-       sc.close();
+        System.out.printf("Em F 'e considerada a temperatura de %.1f%n", F);
+        System.out.print("Deseja repetir? (s/n) ");
+        resp = sc.next().charAt(0);
+        } while (resp != 'n');
+
+        System.out.println("Ok! See you!");
+        sc.close();
 
     }
 
